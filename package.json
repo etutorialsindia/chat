@@ -25,7 +25,7 @@
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"test": "node ./test/runTest.js",
-		"upload":"git add .; git commit -m $(date +%Y-%m-%d_%H-%M-%S); git push"
+		"upload":"git add .; git commit -m $(date +%Y-%m-%d_%H-%M-%S); git push origin master"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.46.0",
